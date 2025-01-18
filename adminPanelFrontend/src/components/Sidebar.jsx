@@ -1,4 +1,4 @@
-import { Users, Home, MessageSquare, Folder } from 'react-feather'
+import { Users, Home, MessageSquare, Folder, Archive, HelpCircle, Settings } from 'react-feather'
 
 export default function Sidebar() {
 
@@ -7,13 +7,13 @@ export default function Sidebar() {
             <ul className="navbar__menu">
                 <li className="navbar__item">
                     <a href="#" className="navbar__link">
-                        <Folder />
+                        <Home />
                         <span>Home</span>
                     </a>
                 </li>
                 <li className="navbar__item">
                     <a href="#" className="navbar__link">
-                        <i data-feather="message-square"></i>
+                        <MessageSquare />
                         <span>Messages</span>
                     </a>
                 </li>
@@ -25,25 +25,25 @@ export default function Sidebar() {
                 </li>
                 <li className="navbar__item">
                     <a href="#" className="navbar__link">
-                        <i data-feather="folder"></i>
+                        <Folder />
                         <span>Projects</span>
                     </a>
                 </li>
                 <li className="navbar__item">
                     <a href="#" className="navbar__link">
-                        <i data-feather="archive"></i>
+                        <Archive />
                         <span>Resources</span>
                     </a>
                 </li>
                 <li className="navbar__item">
                     <a href="#" className="navbar__link">
-                        <i data-feather="help-circle"></i>
+                        <HelpCircle />
                         <span>Help</span>
                     </a>
                 </li>
                 <li className="navbar__item">
                     <a href="#" className="navbar__link">
-                        <i data-feather="settings"></i>
+                        <Settings />
                         <span>Settings</span>
                     </a>
                 </li>

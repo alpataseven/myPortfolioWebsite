@@ -12,9 +12,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+nav > ul > li {
+  list-style: none;
+}
+
 .navbar {
   position: fixed;
-  top: 1rem;
+  top: 2rem;
   left: 1rem;
   background: #fff;
   border-radius: 10px;
@@ -32,7 +36,6 @@ body {
   width: 5.5rem;
   color: #6a778e;
   transition: 250ms ease all;
-  list-style: none;
 }
 
 .navbar__link span {
@@ -50,7 +53,7 @@ body {
 }
 
 .navbar__link:hover {
-  color: #fff;
+  color: darkblue;
 }
 
 .navbar:not(:hover) .navbar__link:focus,
@@ -104,3 +107,18 @@ body {
 
 /* Add similar keyframes and states manually for other gooeyEffects */
 
+/*Dahsboard*/
+
+.dashboard-box {
+  position: relative;
+  display: inline-block;
+  margin-left: 2rem;
+  top: 5rem;
+  left: 15rem;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem 0;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
+  height: calc(100vh - 36rem);
+  width: 20rem;
+}

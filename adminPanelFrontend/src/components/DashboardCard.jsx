@@ -1,0 +1,15 @@
+export default function DashboardCard() {
+    return(
+        <>
+            <div className="dashboard-box">
+                Lorem ipsum dolor sit.
+            </div>
+            <div className="dashboard-box">
+                Lorem ipsum dolor sit.
+            </div>
+            <div className="dashboard-box">
+                Lorem ipsum dolor sit.
+            </div>
+        </>
+    )
+}
