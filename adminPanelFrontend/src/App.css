@@ -114,14 +114,44 @@ nav>ul>li {
   position: relative;
   display: flex;
   justify-content: center;
-  right: 8.5rem;
-  top: 1rem;
+  right: 5rem;
+  top: 1.9rem;
   background: #fff;
   border-radius: 10px;
   padding: 1rem 0;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
   height: calc(100vh - 38rem);
-  width: 80rem;
+  width: 70rem;
+}
+
+.nav-title {
+  width: 40rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+  list-style: none;
+}
+
+.nav-list-item > input {
+  width: 15rem;
+  height: 1.7rem;
+  padding: 15px;
+  border: 2px solid #6a778e;
+  border-radius: 5rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.nav-list-item > input:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
 }
 
 /*Dahsboard*/
