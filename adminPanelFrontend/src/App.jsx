@@ -1,14 +1,13 @@
-
-import DashboardCard from './components/DashboardCard';
-import Sidebar from './components/Sidebar';
-
+import { BrowserRouter } from "react-router"
+import SiteRoutes from "./SiteRoutes"
 
 function App() {
 
   return (
     <>
-      <Sidebar />
-      <DashboardCard />
+      <BrowserRouter>
+        <SiteRoutes />
+      </BrowserRouter>
     </>
   )
 }

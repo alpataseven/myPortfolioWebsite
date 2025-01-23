@@ -1,4 +1,5 @@
 import { Users, Home, MessageSquare, Folder, Archive, HelpCircle, Settings } from 'react-feather'
+import { NavLink } from 'react-router-dom';
 
 export default function Sidebar() {
 
@@ -6,10 +7,10 @@ export default function Sidebar() {
         <nav className="navbar">
             <ul className="navbar__menu">
                 <li className="navbar__item">
-                    <a href="#" className="navbar__link">
+                    <NavLink to="/" className="navbar__link">
                         <Home />
                         <span>Home</span>
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="navbar__item">
                     <a href="#" className="navbar__link">
@@ -18,10 +19,10 @@ export default function Sidebar() {
                     </a>
                 </li>
                 <li className="navbar__item">
-                    <a href="#" className="navbar__link">
+                    <NavLink to="/login" className="navbar__link">
                         <Users />
                         <span>Customers</span>
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="navbar__item">
                     <a href="#" className="navbar__link">

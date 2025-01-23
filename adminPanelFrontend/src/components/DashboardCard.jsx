@@ -4,12 +4,6 @@ export default function DashboardCard() {
             <div className="dashboard-box">
                 Lorem ipsum dolor sit.
             </div>
-            <div className="dashboard-box">
-                Lorem ipsum dolor sit.
-            </div>
-            <div className="dashboard-box">
-                Lorem ipsum dolor sit.
-            </div>
         </>
     )
 }

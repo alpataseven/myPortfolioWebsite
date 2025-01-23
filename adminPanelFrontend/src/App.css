@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
@@ -7,12 +7,13 @@
 /*Sidebar*/
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
 body {
   background: #eaeef6;
   font-family: 'Open Sans', sans-serif;
 }
 
-nav > ul > li {
+nav>ul>li {
   list-style: none;
 }
 
@@ -82,13 +83,13 @@ nav > ul > li {
   transition: 250ms cubic-bezier(1, 0.2, 0.1, 1.2) all;
 }
 
-.navbar__item:first-child:nth-last-child(1):hover ~ li:last-child:before,
-.navbar__item:first-child:nth-last-child(1) ~ li:hover ~ li:last-child:before {
+.navbar__item:first-child:nth-last-child(1):hover~li:last-child:before,
+.navbar__item:first-child:nth-last-child(1)~li:hover~li:last-child:before {
   opacity: 1;
 }
 
-.navbar__item:first-child:nth-last-child(2):hover ~ li:last-child:before,
-.navbar__item:first-child:nth-last-child(2) ~ li:hover ~ li:last-child:before {
+.navbar__item:first-child:nth-last-child(2):hover~li:last-child:before,
+.navbar__item:first-child:nth-last-child(2)~li:hover~li:last-child:before {
   opacity: 1;
 }
 
@@ -97,28 +98,76 @@ nav > ul > li {
   0% {
     transform: scale(1, 1);
   }
+
   50% {
     transform: scale(0.5, 1.5);
   }
+
   100% {
     transform: scale(1, 1);
   }
 }
 
-/* Add similar keyframes and states manually for other gooeyEffects */
+/*Navbar2*/
+
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  right: 8.5rem;
+  top: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem 0;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
+  height: calc(100vh - 38rem);
+  width: 80rem;
+}
 
 /*Dahsboard*/
 
 .dashboard-box {
   position: relative;
-  display: inline-block;
-  margin-left: 2rem;
-  top: 5rem;
-  left: 15rem;
+  display: flex;
+  justify-content: center;
   background: #fff;
   border-radius: 10px;
   padding: 1rem 0;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
-  height: calc(100vh - 36rem);
-  width: 20rem;
+  height: calc(100vh - 38rem);
+  width: 30rem;
+}
+
+/*----------------------Box Grid----------------------*/
+
+.home-dashboard {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 6 / 2;
+}
+
+.div2 {
+  grid-area: 1 / 2 / 2 / 6;
+}
+
+.div3 {
+  grid-area: 2 / 2 / 3 / 4;
+}
+
+.div4 {
+  grid-area: 2 / 4 / 3 / 6;
+}
+
+.div5 {
+  grid-area: 3 / 2 / 6 / 4;
+}
+
+.div6 {
+  grid-area: 3 / 4 / 6 / 6;
 }
