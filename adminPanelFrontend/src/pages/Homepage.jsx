@@ -1,5 +1,8 @@
+import ChartDashboard from "../components/ChartDashboard";
+import Dashboard from "../components/RevenueSources";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
+import RevenueSources from "../components/RevenueSources";
 
 export default function Homepage() {
     return (
@@ -9,8 +12,8 @@ export default function Homepage() {
                 <div class="div2"><Navbar /></div>
                 <div class="div3"></div>
                 <div class="div4"></div>
-                <div class="div5"> </div>
-                <div class="div6"> </div>
+                <div class="div5"><ChartDashboard /></div>
+                <div class="div6"><RevenueSources /></div>
             </div>
         </>
     )

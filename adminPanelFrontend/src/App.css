@@ -114,14 +114,14 @@ nav>ul>li {
   position: relative;
   display: flex;
   justify-content: center;
-  right: 5rem;
+  right: 8.5rem;
   top: 1.9rem;
   background: #fff;
   border-radius: 10px;
   padding: 1rem 0;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
   height: calc(100vh - 38rem);
-  width: 70rem;
+  width: 80rem;
 }
 
 .nav-title {
@@ -154,6 +154,15 @@ nav>ul>li {
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
 }
 
+.nav-icon {
+  cursor: pointer;
+  transition: 0.3s color;
+}
+
+.nav-icon:hover {
+  color: #406ff3;
+}
+
 /*Dahsboard*/
 
 .dashboard-box {
@@ -166,6 +175,10 @@ nav>ul>li {
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
   height: calc(100vh - 38rem);
   width: 30rem;
+}
+
+.chart {
+
 }
 
 /*----------------------Box Grid----------------------*/
