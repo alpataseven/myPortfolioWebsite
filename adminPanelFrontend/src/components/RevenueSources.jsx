@@ -9,7 +9,7 @@ const revenueSnapshotData = [
 
 const RevenueSources = () => {
   return (
-    <div style={{ flex: 1, border: "1px solid #e3e6f0", borderRadius: "10px", padding: "20px", backgroundColor: "#ffffff" }}>
+    <div className="revenue-sources" style={{ flex: 1, border: "1px solid #e3e6f0", borderRadius: "10px", padding: "20px", backgroundColor: "#ffffff" }}>
       <h3 style={{ marginBottom: "20px" }}>Revenue Snapshot</h3>
       <Chart
         dataSource={revenueSnapshotData}

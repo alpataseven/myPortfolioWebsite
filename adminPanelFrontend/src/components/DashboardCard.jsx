@@ -2,7 +2,7 @@ export default function DashboardCard() {
     return(
         <>
             <div className="dashboard-box">
-                Lorem ipsum dolor sit.
+                Lorem, ipsum dolor.
             </div>
         </>
     )

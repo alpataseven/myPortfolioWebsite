@@ -114,7 +114,7 @@ nav>ul>li {
   position: relative;
   display: flex;
   justify-content: center;
-  right: 8.5rem;
+  right: 0.1rem;
   top: 1.9rem;
   background: #fff;
   border-radius: 10px;
@@ -140,7 +140,7 @@ nav>ul>li {
   list-style: none;
 }
 
-.nav-list-item > input {
+.nav-list-item>input {
   width: 15rem;
   height: 1.7rem;
   padding: 15px;
@@ -149,7 +149,7 @@ nav>ul>li {
   transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-.nav-list-item > input:hover {
+.nav-list-item>input:hover {
   border-color: #007bff;
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
 }
@@ -165,52 +165,66 @@ nav>ul>li {
 
 /*Dahsboard*/
 
-.dashboard-box {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  background: #fff;
-  border-radius: 10px;
-  padding: 1rem 0;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
-  height: calc(100vh - 38rem);
-  width: 30rem;
+.chart,
+.revenue-sources {
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+  margin-right: 5rem;
+  width: 37.7rem;
 }
 
-.chart {
 
-}
 
 /*----------------------Box Grid----------------------*/
 
 .home-dashboard {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: 0.5fr repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 2rem;
+  grid-column-gap: 0.3rem;
   grid-row-gap: 2rem;
 }
 
-.div1 {
-  grid-area: 1 / 1 / 6 / 2;
+.dashboard1 {
+  grid-area: 1 / 1 / 6 / 1;
 }
 
-.div2 {
+.dashboard2 {
   grid-area: 1 / 2 / 2 / 6;
 }
 
-.div3 {
-  grid-area: 2 / 2 / 3 / 4;
+.dashboard3 {
+  grid-area: 2 / 2 / 6 / 4;
 }
 
-.div4 {
-  grid-area: 2 / 4 / 3 / 6;
+.dashboard4 {
+  grid-area: 2 / 4 / 6 / 6;
 }
 
-.div5 {
-  grid-area: 3 / 2 / 6 / 4;
+/*DataPage box grid*/
+
+.data-dashboard {
+  display: grid;
+  grid-template-columns: 0.5fr repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0.3rem;
+  grid-row-gap: 3rem;
 }
 
-.div6 {
-  grid-area: 3 / 4 / 6 / 6;
+.data1 {
+  grid-area: 1 / 1 / 6 / 2;
+}
+
+.data2 {
+  grid-area: 1 / 2 / 2 / 6;
+}
+
+.data3 {
+  grid-area: 2 / 2 / 6 / 6;
+}
+
+.user-data-box {
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+  width: 80rem;
 }

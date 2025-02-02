@@ -17,8 +17,7 @@ export default function ChartDashboard() {
     ];
 
     return (
-        <div className="chart" style={{ display: "flex", gap: "20px" }}>
-            {/* Earnings Overview (Line Chart) */}
+        <div className="chart" style={{ display: "flex", gap: "10px" }}>
             <div style={{ flex: 1, border: "1px solid #e3e6f0", borderRadius: "10px", padding: "20px", backgroundColor: "#ffffff" }}>
                 <h3 style={{ marginBottom: "20px" }}>Earnings Overview</h3>
                 <Chart dataSource={earningsData} title="Earnings Overview">

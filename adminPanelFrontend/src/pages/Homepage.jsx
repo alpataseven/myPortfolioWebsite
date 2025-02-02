@@ -1,19 +1,17 @@
 import ChartDashboard from "../components/ChartDashboard";
-import Dashboard from "../components/RevenueSources";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import RevenueSources from "../components/RevenueSources";
+import UserDataGrid from "../components/UserDataGrid";
 
 export default function Homepage() {
     return (
         <>
-            <div class="home-dashboard">
-                <div class="div1"><Sidebar /></div>
-                <div class="div2"><Navbar /></div>
-                <div class="div3"></div>
-                <div class="div4"></div>
-                <div class="div5"><ChartDashboard /></div>
-                <div class="div6"><RevenueSources /></div>
+            <div className="home-dashboard">
+                <div className="dashboard1"><Sidebar /></div>
+                <div className="dashboard2"><Navbar /></div>
+                <div className="dashboard3"><ChartDashboard /></div>
+                <div className="dashboard4"><RevenueSources /></div>
             </div>
         </>
     )

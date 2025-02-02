@@ -1,4 +1,4 @@
-import { Users, Home, MessageSquare, Folder, Archive, HelpCircle, Settings } from 'react-feather'
+import { Users, Home, MessageSquare, Folder, Archive, HelpCircle, Settings, Database } from 'react-feather'
 import { NavLink } from 'react-router-dom';
 
 export default function Sidebar() {
@@ -25,16 +25,16 @@ export default function Sidebar() {
                     </NavLink>
                 </li>
                 <li className="navbar__item">
-                    <a href="#" className="navbar__link">
+                    <NavLink to="/project" className="navbar__link">
                         <Folder />
                         <span>Projects</span>
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="navbar__item">
-                    <a href="#" className="navbar__link">
-                        <Archive />
-                        <span>Resources</span>
-                    </a>
+                    <NavLink to="/data" className="navbar__link">
+                        <Database />
+                        <span>Database</span>
+                    </NavLink>
                 </li>
                 <li className="navbar__item">
                     <a href="#" className="navbar__link">
