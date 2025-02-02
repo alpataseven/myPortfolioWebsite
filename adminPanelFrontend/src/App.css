@@ -228,3 +228,31 @@ nav>ul>li {
   margin-bottom: 5rem;
   width: 80rem;
 }
+
+/*Project page box grid*/
+
+.create-project-pages {
+  display: grid;
+  grid-template-columns: 0.5fr repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0.3rem;
+  grid-row-gap: 3rem;
+}
+
+.grid1 {
+  grid-area: 1 / 1 / 6 / 2;
+}
+
+.grid2 {
+  grid-area: 1 / 2 / 2 / 6;
+}
+
+.grid3 {
+  grid-area: 2 / 2 / 6 / 6;
+}
+
+.project-create-box {
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+  width: 80rem;
+}

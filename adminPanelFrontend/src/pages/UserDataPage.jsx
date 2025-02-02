@@ -1,3 +1,5 @@
+import UserDataGrid from "../components/UserDataGrid";
+
 export default function Projects() {
     return(
         <>

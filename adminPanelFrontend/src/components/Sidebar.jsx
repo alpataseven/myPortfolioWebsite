@@ -13,18 +13,6 @@ export default function Sidebar() {
                     </NavLink>
                 </li>
                 <li className="navbar__item">
-                    <a href="#" className="navbar__link">
-                        <MessageSquare />
-                        <span>Messages</span>
-                    </a>
-                </li>
-                <li className="navbar__item">
-                    <NavLink to="/login" className="navbar__link">
-                        <Users />
-                        <span>Customers</span>
-                    </NavLink>
-                </li>
-                <li className="navbar__item">
                     <NavLink to="/project" className="navbar__link">
                         <Folder />
                         <span>Projects</span>
@@ -35,12 +23,6 @@ export default function Sidebar() {
                         <Database />
                         <span>Database</span>
                     </NavLink>
-                </li>
-                <li className="navbar__item">
-                    <a href="#" className="navbar__link">
-                        <HelpCircle />
-                        <span>Help</span>
-                    </a>
                 </li>
                 <li className="navbar__item">
                     <a href="#" className="navbar__link">
