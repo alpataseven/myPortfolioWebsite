@@ -26,7 +26,7 @@ const ProjectForm = () => {
 
   return (
     <Container maxWidth="sm" className="project-create-box">
-      <Box width={800} margin={-20} mt={1} mb={8} p={3} borderRadius={2} bgcolor="white">
+      <Box width={1280} height={480} margin={-50} mt={1} mb={8} p={3} borderRadius={2} bgcolor="white">
         <Typography variant="h5" gutterBottom>
           Proje Oluştur
         </Typography>

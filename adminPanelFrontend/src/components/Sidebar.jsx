@@ -25,10 +25,10 @@ export default function Sidebar() {
                     </NavLink>
                 </li>
                 <li className="navbar__item">
-                    <a href="#" className="navbar__link">
+                    <NavLink to="/settings" className="navbar__link">
                         <Settings />
                         <span>Settings</span>
-                    </a>
+                    </NavLink>
                 </li>
             </ul>
         </nav>

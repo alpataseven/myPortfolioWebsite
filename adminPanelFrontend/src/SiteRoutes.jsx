@@ -4,6 +4,7 @@ import LoginPage from './pages/Login'
 import NotFound from './pages/NotFound'
 import DataPage from './pages/DataPage'
 import CreateProjectPage from './pages/CreateProjectPage'
+import Settings from './pages/Settings'
 
 export default function SiteRoutes() {
     return(
@@ -13,6 +14,7 @@ export default function SiteRoutes() {
                 <Route path='/login' element={<LoginPage />} />
                 <Route path='/data' element={<DataPage />} />
                 <Route path='/project' element={<CreateProjectPage />} />
+                <Route path='/settings' element={<Settings />} />
                 <Route path='*' element={<NotFound />} />
             </Routes>
         </>

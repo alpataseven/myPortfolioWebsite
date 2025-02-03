@@ -1,5 +1,6 @@
-import { Avatar, Badge } from '@mui/material'
+import { Badge } from '@mui/material'
 import { MessageSquare } from 'react-feather'
+import AccountMenu from './AccountMenu'
 
 export default function Navbar() {
 
@@ -13,10 +14,9 @@ export default function Navbar() {
                         <MessageSquare />
                     </Badge>
                 </li>
-                <li className="nav-list-item nav-icon"><Avatar
-                    alt='Admin'
-                    src='/src/photos/profile.jpg'
-                    sx={{ width: 36, height: 36 }} /></li>
+                <li className="nav-list-item nav-icon">
+                    <AccountMenu />
+                </li>
             </ul>
         </div>
     )
