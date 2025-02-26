@@ -120,8 +120,8 @@ nav>ul>li {
   border-radius: 10px;
   padding: 1rem 0;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
-  height: calc(100vh - 38rem);
-  width: 80rem;
+  max-height: calc(100vh - 38rem);
+  max-width: 80rem;
 }
 
 .nav-title {
