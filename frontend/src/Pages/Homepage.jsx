@@ -7,6 +7,7 @@ import projectPhotos from "../Photos/Homepage.png"
 import contactPhotos from "../Photos/MobilePhoto.png"
 import ProjectButton from "../Components/ProjectButton"
 import ScrollTopButton from "../Components/ScrollTopButton"
+import ContactButton from "../Components/ContactButton"
 
 export default function Homepage() {
     return (
@@ -34,12 +35,14 @@ export default function Homepage() {
                 </div>
             </div>
             <br />
-            <div className="grid grid-cols-1 sm:grid-cols-2 h-150">
+            <div style={{ marginTop: "20%" }} className="grid grid-cols-1 sm:grid-cols-2 h-150">
                 <div className="pl-20 pt-8">
                     <h1 style={{ fontSize: "3.5rem", textTransform: "uppercase" }}>Projelerimi Görmek için butona tıkla</h1>
                     <br />
                     <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 h-150">
-                        <ProjectButton />
+                        <NavLink to="/project">
+                            <ProjectButton />
+                        </NavLink>
                     </div>
                 </div>
                 <div className="p-10 m-5">
@@ -54,17 +57,20 @@ export default function Homepage() {
                 </div>
             </div>
             <br />
-            <div className="grid grid-cols-1 sm:grid-cols-2 h-150">
-                <div className="pl-30 pt-15 scale-75 md:scale-90 lg:scale-100">
-                    <div className="mockup-phone transform scale-60">
+            <div style={{ marginBottom: "30%" }} className="grid grid-cols-1 sm:grid-cols-2 h-150">
+                <div className="pl-20 pt-8 scale-75 md:scale-90 lg:scale-100">
+                    <div style={{ marginBottom: "10rem" }} className="mockup-phone transform scale-60">
                         <div className="mockup-phone-camera"></div>
                         <div className="mockup-phone-display text-white grid place-content-center">
                             <img src={contactPhotos} alt="Contact Photos" />
                         </div>
                     </div>
                 </div>
-                <div className="p-10 m-5">
-
+                <div style={{ height: "20%", marginTop: "40%" }} className="p-10 m-5">
+                    <p style={{ fontSize: "3.5rem", textTransform: "uppercase" }}>İletişime geçmek için butona tıkla</p>
+                    <NavLink to="/contact">
+                        <ContactButton />
+                    </NavLink>
                 </div>
             </div>
             <ScrollTopButton />
