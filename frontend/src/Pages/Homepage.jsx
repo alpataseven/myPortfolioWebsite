@@ -28,7 +28,7 @@ export default function Homepage() {
                             <pre data-prefix=">" className="text-light"><code>Yönetim Bilişim Sistemleri Öğrencisi</code></pre>
                         </div>
                         <br />
-                        <div style={{ marginLeft: "1%", marginTop: "-5%" }} >
+                        <div style={{ marginLeft: "40%", marginTop: "5%" }} >
                             <NavLink to="/about">
                                 <AboutButton />
                             </NavLink>
@@ -36,7 +36,7 @@ export default function Homepage() {
                     </div>
                 </div>
                 <br />
-                <div className="grid grid-cols-1 sm:grid-cols-2 h-150">
+                <div style={{marginTop:"15rem"}} className="grid grid-cols-1 sm:grid-cols-2 h-150">
                     <div className="pl-20 pt-8">
                         <h1 style={{ fontSize: "3.5rem", textTransform: "uppercase" }}>Projelerimi Görmek için butona tıkla</h1>
                         <br />
