@@ -8,6 +8,7 @@ import contactPhotos from "../Photos/MobilePhoto.png"
 import ProjectButton from "../Components/ProjectButton"
 import ScrollTopButton from "../Components/ScrollTopButton"
 import ContactButton from "../Components/ContactButton"
+import SecondNavbar from "../Components/SecondNavbar"
 
 export default function Homepage() {
     return (
@@ -74,6 +75,7 @@ export default function Homepage() {
                         </NavLink>
                     </div>
                 </div>
+                <SecondNavbar />
                 <ScrollTopButton />
             </div>
             <Footer />
