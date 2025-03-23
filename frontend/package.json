@@ -19,6 +19,7 @@
     "embla-carousel-react": "^8.5.2",
     "feather-icons": "^4.29.2",
     "framer-motion": "^12.4.7",
+    "gsap": "^3.12.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-feather": "^2.0.10",

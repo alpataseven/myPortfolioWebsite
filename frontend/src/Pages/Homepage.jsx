@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
 import Navbar from "../Components/Navbar"
-import Photos from "../Photos/alp2.jpg"
+import Photos from "../Photos/alp3.jpg"
 import AboutButton from "../Components/AboutButton"
 import Footer from "../Components/Footer"
 import projectPhotos from "../Photos/Homepage.png"
@@ -9,10 +9,12 @@ import ProjectButton from "../Components/ProjectButton"
 import ScrollTopButton from "../Components/ScrollTopButton"
 import ContactButton from "../Components/ContactButton"
 import SecondNavbar from "../Components/SecondNavbar"
+import ScrollProgress from "../Components/ScrollProgress"
 
 export default function Homepage() {
     return (
         <>
+            <ScrollProgress />
             <Navbar />
             <div className="auto-rows-auto">
                 <div className="grid grid-cols-1 sm:grid-cols-2 h-150">

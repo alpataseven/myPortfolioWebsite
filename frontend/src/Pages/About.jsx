@@ -1,6 +1,8 @@
 import AboutTimeline from "../Components/AboutTimeline";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
+import SecondNavbar from "../Components/SecondNavbar";
+import ScrollToTop from "../Components/ScrollTopButton";
 import SkillsShowcase from "../Components/SkillsShowcase";
 import photo from "../Photos/alp2.jpg"
 
@@ -28,7 +30,9 @@ export default function About() {
             <AboutTimeline />
             <SkillsShowcase />
             <br />
-            
+
+            <SecondNavbar />
+            <ScrollToTop />
             <Footer />
         </>
     )

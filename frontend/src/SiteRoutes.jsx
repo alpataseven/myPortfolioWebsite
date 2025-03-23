@@ -5,6 +5,7 @@ import Homepage from './Pages/Homepage'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Project from './Pages/Project'
+import Album from './Pages/Album'
 
 export default function SiteRoutes() {
     return(
@@ -15,6 +16,7 @@ export default function SiteRoutes() {
                 <Route path='/about' element={<About />} />
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/project' element={<Project />} />
+                <Route path='/album' element={<Album />} />
                 <Route path='*' element={<NotFound />} />
             </Routes>
         </>

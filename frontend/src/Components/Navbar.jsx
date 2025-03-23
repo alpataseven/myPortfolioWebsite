@@ -15,6 +15,7 @@ export default function Navbar() {
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                             <li><NavLink to="/about">Hakkımda</NavLink></li>
                             <li><NavLink to="/project">Projelerim</NavLink></li>
+                            <li><NavLink to="/album">Fotoğraf Albümü</NavLink></li>
                             <li><NavLink to="/contact">İletişim</NavLink></li>
                         </ul>
                     </div>
@@ -24,6 +25,7 @@ export default function Navbar() {
                     <ul className="menu menu-horizontal px-1">
                         <li><NavLink to="/about">Hakkımda</NavLink></li>
                         <li><NavLink to="/project">Projelerim</NavLink></li>
+                        <li><NavLink to="/album">Fotoğraf Albümü</NavLink></li>
                         <li><NavLink to="/contact">İletişim</NavLink></li>
                     </ul>
                 </div>
