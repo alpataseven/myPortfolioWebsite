@@ -25,6 +25,8 @@ import photo20 from "../Photos/photo20.jpg"
 import photo21 from "../Photos/photo21.jpg"
 import photo22 from "../Photos/photo22.jpg"
 import photo23 from "../Photos/photo23.jpg"
+import SecondNavbar from '../Components/SecondNavbar';
+import ScrollToTop from '../Components/ScrollTopButton';
 
 const Photos = [
     photo1, photo2, photo3, photo4, photo22, photo6, photo22, photo8, photo9, photo10, photo11, photo12,
@@ -88,6 +90,8 @@ export default function Album() {
                         </div>
                     ))}
                 </div>
+                <SecondNavbar />
+                <ScrollToTop />
             </div>
             <Footer />
             {selectedPhotoIndex !== null && (

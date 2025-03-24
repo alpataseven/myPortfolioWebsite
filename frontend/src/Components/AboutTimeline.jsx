@@ -72,6 +72,7 @@ export default function AboutTimeline() {
                     </div>
                     <hr />
                 </li>
+               
                 <li>
                     <hr />
                     <div className="timeline-middle">
@@ -87,30 +88,9 @@ export default function AboutTimeline() {
                         </svg>
                     </div>
                     <div className="timeline-end md:mb-10">
-                        <time className="font-mono italic">2024</time>
-                        <div className="text-lg">Indata Teknoloji - Yazılım Geliştirme Stajyeri</div>
-                        Staj sürecimde, React ve diğer frontend teknolojileriyle kullanıcı dostu arayüzler geliştirme, API entegrasyonu ve performans optimizasyonu gibi konular üzerinde çalıştım. Ayrıca, ekip içerisinde iş süreçlerine dahil olarak yazılım geliştirme metodolojileri ve proje yönetimi süreçleri hakkında deneyim kazandım.
-                    </div>
-                    <hr />
-                </li>
-                <li>
-                    <hr />
-                    <div className="timeline-middle">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                            className="h-5 w-5">
-                            <path
-                                fillRule="evenodd"
-                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                clipRule="evenodd" />
-                        </svg>
-                    </div>
-                    <div className="timeline-start mb-10 md:text-end">
                         <time className="font-mono italic">2025</time>
                         <div className="text-lg">Turkuvaz Medya | İdefix - Test & İş Analisti Stajyeri</div>
-                        <div className="pl-8 mt-5">İstanbul Gedik Üniversitesi'nde Yönetim Bilişim Sistemleri öğrencisi olarak, bilişim teknolojileri ve işletme süreçlerini bir araya getiren disiplinler arası bir eğitim alıyorum.
+                        <div className="pr-8 mt-5">İstanbul Gedik Üniversitesi'nde Yönetim Bilişim Sistemleri öğrencisi olarak, bilişim teknolojileri ve işletme süreçlerini bir araya getiren disiplinler arası bir eğitim alıyorum.
                         Turkuvaz Medya bünyesinde yer alan İdefix’te Test & İş Analisti Stajyeri olarak, yazılım geliştirme süreçlerinde kalite kontrol ve iş analizi görevlerini yürütüyorum. 
                         Kullanıcı ihtiyaçlarını analiz ederek gereksinimlerin belirlenmesi, test senaryolarının oluşturulması ve yazılım test süreçlerinin yürütülmesi gibi konularda aktif rol alıyorum.
                     </div>

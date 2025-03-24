@@ -6,10 +6,10 @@ import Footer from "../Components/Footer"
 import projectPhotos from "../Photos/Homepage.png"
 import contactPhotos from "../Photos/MobilePhoto.png"
 import ProjectButton from "../Components/ProjectButton"
-import ScrollTopButton from "../Components/ScrollTopButton"
 import ContactButton from "../Components/ContactButton"
 import SecondNavbar from "../Components/SecondNavbar"
 import ScrollProgress from "../Components/ScrollProgress"
+import ScrollToTop from "../Components/ScrollTopButton"
 
 export default function Homepage() {
     return (
@@ -78,7 +78,7 @@ export default function Homepage() {
                     </div>
                 </div>
                 <SecondNavbar />
-                <ScrollTopButton />
+                <ScrollToTop />
             </div>
             <Footer />
         </>

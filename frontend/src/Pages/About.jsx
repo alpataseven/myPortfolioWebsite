@@ -4,11 +4,13 @@ import Navbar from "../Components/Navbar";
 import SecondNavbar from "../Components/SecondNavbar";
 import ScrollToTop from "../Components/ScrollTopButton";
 import SkillsShowcase from "../Components/SkillsShowcase";
-import photo from "../Photos/alp2.jpg"
+import photo from "../Photos/alp3.jpg"
+import ScrollProgress from "../Components/ScrollProgress";
 
 export default function About() {
     return (
         <>
+            <ScrollProgress />
             <Navbar />
             <br />
             <div className="grid grid-cols-2 grid-flow-row gap-5 p-4 h-150">
