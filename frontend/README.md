@@ -1,12 +1,59 @@
-# React + Vite
+TR
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# My Portfolio Website (Frontend)
 
-Currently, two official plugins are available:
+React js ile oluşturduğum bir Kişisel Portföy Website projesi
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Projede kullandığım teknolojileri ve websiteleri aşağıdan inceleyebilirsiniz
 
-## Expanding the ESLint configuration
+- Tailwind Css
+- Daisy Ui
+- Google Font
+- React Feather Icon
+- GSAP
+- React Bits
+- uiverse.io
+- Flat Ui
+- React Hooks (UseState, UseEffect, Useref)
+- React Router Dom
+- Styled Component
+- Vite
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Kurulum
+   
+1. Depoyu klonlayın:
+   ```bash
+   git clone https://github.com/alpataseven/myPortfolioWebsite.git
+   ```
+2. Proje dizinine gidin:
+   ```bash
+   cd frontend
+   ```
+3. Bağımlılıkları yükleyin:
+   ```bash
+    npm create vite@latest myPortfolioWebsite --template react
+    npm install gsap tailwindcss @tailwindcss/vite -D daisyui@latest react-feather styled-components react-router-dom 
+   ```
+4. Uygulamayı başlatın:
+   ```bash
+   npm run dev
+   ```
+
+   ## Kod Örneği
+
+```javascript
+    <div style={{ margin: "auto", marginTop: "19%" }} className="mockup-code w-100">
+      <pre data-prefix="$"><code>Alperen ATASEVEN</code></pre>
+      <pre data-prefix=">" className="text-warning"><code>...</code></pre>
+      <pre data-prefix=">" className="text-light"><code>Yönetim Bilişim Sistemleri Öğrencisi</code></pre>
+    </div>
+```
+## İletişim
+
+Sorular veya geri bildirimler için iletişim bilgilerim:
+
+- Yazar: [Alperen ATASEVEN](https://github.com/alpataseven)
+- E-posta: alperenataseven.3@gmail.com
+- GitHub: [alpataseven](https://github.com/alpataseven)
+
+---
