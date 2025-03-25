@@ -11,6 +11,7 @@ React js ile oluşturduğum bir Kişisel Portföy Website projesi
 - Google Font
 - React Feather Icon
 - GSAP
+- Framer Motion
 - React Bits
 - uiverse.io
 - Flat Ui
@@ -18,6 +19,35 @@ React js ile oluşturduğum bir Kişisel Portföy Website projesi
 - React Router Dom
 - Styled Component
 - Vite
+
+## Demo
+
+### Ekran Görüntüsü
+
+![Giriş Sayfası](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20212900.png)
+Projenin Giriş Sayfa Ekranı
+
+![Ana Sayfa](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20213216.png)
+![Ana Sayfa](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20213243.png)
+Projenin Ana sayfa ekranı
+
+![Hakkımda Sayfası](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20213343.png)
+![Hakkımda Sayfası](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20213857.png)
+![Hakkımda Sayfası](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20213919.png)
+Projenin Hakkımda sayfası
+
+![Projelerim Sayfası](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20213954.png)
+Projelerim Sayfası
+
+![Fotoğraf Albümü Sayfası](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20214018.png)
+![Fotoğraf Albümü Sayfası](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20214045.png)
+Fotoğraf Albümü Sayfası
+
+![İletişim Sayfası](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20214107.png)
+İletişim Sayfası
+
+![Hata Sayfası](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20214131.png)
+Hata Sayfası
 
 ## Kurulum
    
@@ -78,6 +108,35 @@ A personal portfolio website project I created using React.js
 - React Router Dom
 - Styled Component
 - Vite
+
+## Demo
+
+### Screenshot
+
+![Welcome Page](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20212900.png)
+Welcome Page
+
+![Homepage](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20213216.png)
+![Homepage](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20213243.png)
+Home Page
+
+![About Page](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20213343.png)
+![About Page](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20213857.png)
+![About Page](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20213919.png)
+About Page
+
+![Project Page](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20213954.png)
+Project Page
+
+![Album Page](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20214018.png)
+![Album Page](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20214045.png)
+Album Page
+
+![Contact Page](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20214107.png)
+Contact Page
+
+![Error Page](https://github.com/alpataseven/myPortfolioWebsite/blob/main/frontend/Ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-24%20214131.png)
+Error Page
 
 ## Installation
    
