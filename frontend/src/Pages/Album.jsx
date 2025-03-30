@@ -84,7 +84,7 @@ export default function Album() {
                             <img
                                 key={index}
                                 src={item}
-                                className="w-full rounded-lg mb-4 break-inside-avoid cursor-pointer group-hover:opacity-50 transition-opacity duration-300" // Hover efekti eklendi
+                                className="w-full rounded-lg mb-4 break-inside-avoid cursor-pointer group-hover:opacity-50 transition-opacity duration-300"
                                 onClick={() => openCarousel(index)}
                             />
                         </div>
