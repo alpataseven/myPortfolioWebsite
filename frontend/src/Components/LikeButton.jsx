@@ -59,7 +59,7 @@ const StyledWrapper = styled.div`
   .container {
     display: flex;
     align-items: center;
-    cursor: pointer;
+    cursor: none;
     margin-top: -0.25em;
     margin-bottom: -0.25em;
   }

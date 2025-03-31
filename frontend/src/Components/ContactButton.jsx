@@ -21,7 +21,7 @@ const StyledWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    cursor: none;
     border: none;
     text-transform: uppercase;
     background-color: #333;

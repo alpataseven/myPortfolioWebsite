@@ -8,12 +8,4 @@
   box-sizing: border-box;
   margin: 0%;
   font-family: "Outfit", sans-serif;
-  cursor: none;
-}
-
-.custom-cursor {
-  @apply fixed w-6 h-6 bg-blue-500 rounded-full mix-blend-difference pointer-events-none;
-  transform: translate(-50%, -50%);
-  z-index: 9999;
-  mix-blend-mode: difference;
 }

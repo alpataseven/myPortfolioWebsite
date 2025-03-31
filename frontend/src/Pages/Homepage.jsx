@@ -10,10 +10,12 @@ import ContactButton from "../Components/ContactButton"
 import SecondNavbar from "../Components/SecondNavbar"
 import ScrollProgress from "../Components/ScrollProgress"
 import ScrollToTop from "../Components/ScrollTopButton"
+import Cursor from "../Components/Cursor"
 
 export default function Homepage() {
     return (
         <>
+            
             <ScrollProgress />
             <Navbar />
             <div className="auto-rows-auto">
