@@ -1,14 +1,16 @@
-import ChartCard from "../components/ChartCard";
-import Sidebar from "../components/Sidebar";
-import Navbar from "../components/Navbar";
-import MonthlyVisitsChart from "../components/MonthlyVisitsChart";
-import ContactList from "../components/ContactList";
-import Calendar from "../components/Calendar";
+import ChartCard from "../components/ChartCard"
+import Sidebar from "../components/Sidebar"
+import Navbar from "../components/Navbar"
+import MonthlyVisitsChart from "../components/MonthlyVisitsChart"
+import ContactList from "../components/ContactList"
+import Calendar from "../components/Calendar"
 
 export default function DashboardPage() {
     return (
         <div className="flex h-screen">
-            <Sidebar />
+            <div className="">
+                <Sidebar />
+            </div>
             <div className="flex-1 flex flex-col">
                 <Navbar />
                 <main className="flex-1 p-4">
@@ -26,13 +28,13 @@ export default function DashboardPage() {
                         <div>
                             <ContactList className="rounded-lg shadow p-6" />
                         </div>
-                        <div className="flex justify-between">
+                        <div className="flex justify-center items-center">
                         <Calendar />
                         </div>
                     </div>
                 </main>
             </div>
         </div>
-    );
+    )
 }
 
