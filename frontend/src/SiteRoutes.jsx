@@ -7,6 +7,8 @@ import Contact from './Pages/Contact'
 import Project from './Pages/Project'
 import Album from './Pages/Album'
 import BlogPage from './Pages/BlogPage'
+import BlogDetails from './Pages/BlogDetails'
+import BlogStage from './Pages/BlogStage'
 
 export default function SiteRoutes() {
     return(
@@ -19,6 +21,8 @@ export default function SiteRoutes() {
                 <Route path='/project' element={<Project />} />
                 <Route path='/album' element={<Album />} />
                 <Route path='/blog' element={<BlogPage />} />
+                <Route path="/blog/:id" element={<BlogDetails />} />
+                <Route path="/blogstage" element={<BlogStage />} />
                 <Route path='*' element={<NotFound />} />
             </Routes>
         </>

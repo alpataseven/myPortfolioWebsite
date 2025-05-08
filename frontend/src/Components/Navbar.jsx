@@ -28,6 +28,7 @@ export default function Navbar() {
                         <li><NavLink to="/project">Projelerim</NavLink></li>
                         <li><NavLink to="/album">Fotoğraf Albümü</NavLink></li>
                         <li><NavLink to="/blog">Blog</NavLink></li>
+                        <li><NavLink to="/blogstage">Blog</NavLink></li>
                         <li><NavLink to="/contact">İletişim</NavLink></li>
                     </ul>
                 </div>
